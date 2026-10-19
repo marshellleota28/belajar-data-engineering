@@ -1,0 +1,15 @@
+# Credentials and secrets
+credentials.json
+*.key
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Google Cloud service account keys
+*service-account*.json
